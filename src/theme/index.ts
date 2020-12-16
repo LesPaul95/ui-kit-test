@@ -64,6 +64,12 @@ export const theme = createMuiTheme({
       },
     },
     MuiFormLabel: {
+      disabled: {
+        color: '#44464B',
+      },
+      focused: {
+        color: '#44464B',
+      },
       root: {
         width: '100%',
         color: '#44464B',
@@ -73,12 +79,6 @@ export const theme = createMuiTheme({
         letterSpacing: '0.12em',
         textAlign: 'left',
         lineHeight: '22px',
-        disabled: {
-          color: '#44464B',
-        },
-        focused: {
-          color: '#44464B',
-        },
         '@media (max-width: 1919px)': {
           fontSize: 16,
         },
