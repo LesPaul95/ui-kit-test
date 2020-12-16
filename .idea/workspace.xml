@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef25850e-73bb-4452-bcf8-7f05fc1cb3e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TextInput/TextInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stories/TextInput.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal/modal-styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal/modal.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal/modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneInput/PhoneInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneInput/PhoneInputStyles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneInput/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneInput/phone-input.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/TextInput/TextInput.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.cjs.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.cjs.development.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.cjs.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.cjs.production.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mylib.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.cjs.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.cjs.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.cjs.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.cjs.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ui_kit_test.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/TextInput.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextInput/TextInput.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/Thing.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/blah.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,16 +54,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TextInput" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/PhoneInput" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PhoneInput" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Modal" />
       <recent name="$PROJECT_DIR$/src/TextInput" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/TextInput" />
       <recent name="$PROJECT_DIR$/stories" />
     </key>
   </component>
@@ -59,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608106369295</updated>
       <workItem from="1608106370529" duration="598000" />
-      <workItem from="1608107089128" duration="1266000" />
+      <workItem from="1608107089128" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608107222733</created>
@@ -75,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608107301575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="build text input">
+      <created>1608108369302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108369302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add build">
+      <created>1608108429188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108429188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="build text input" />
-    <option name="LAST_COMMIT_MESSAGE" value="build text input" />
+    <MESSAGE value="add build" />
+    <option name="LAST_COMMIT_MESSAGE" value="add build" />
   </component>
 </project>

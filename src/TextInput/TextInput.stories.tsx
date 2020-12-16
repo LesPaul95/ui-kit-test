@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import { action } from '@storybook/addon-actions';
-import TextInput from '../src/TextInput/TextInput';
+import TextInput from './TextInput';
 
 export default {
   component: TextInput,
