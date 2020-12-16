@@ -64,32 +64,33 @@ export const theme = createMuiTheme({
       },
     },
     MuiFormLabel: {
-      // @ts-ignore
-      width: '100%',
-      color: '#44464B',
-      fontFamily: 'Museo Sans, sans-serif',
-      fontWeight: 400,
-      fontSize: 18,
-      letterSpacing: '0.12em',
-      textAlign: 'left',
-      lineHeight: '22px',
-      disabled: {
+      root: {
+        width: '100%',
         color: '#44464B',
-      },
-      focused: {
-        color: '#44464B',
-      },
-      '@media (max-width: 1919px)': {
-        fontSize: 16,
-      },
-      '@media (max-width: 1199px)': {
-        fontSize: 16,
-        fontWeight: 600,
-      },
-      '@media (max-width: 639px)': {
-        fontSize: 12,
-        marginRight: -30,
-      },
+        fontFamily: 'Museo Sans, sans-serif',
+        fontWeight: 400,
+        fontSize: 18,
+        letterSpacing: '0.12em',
+        textAlign: 'left',
+        lineHeight: '22px',
+        disabled: {
+          color: '#44464B',
+        },
+        focused: {
+          color: '#44464B',
+        },
+        '@media (max-width: 1919px)': {
+          fontSize: 16,
+        },
+        '@media (max-width: 1199px)': {
+          fontSize: 16,
+          fontWeight: 600,
+        },
+        '@media (max-width: 639px)': {
+          fontSize: 12,
+          marginRight: -30,
+        },
+      }
     },
     MuiInputLabel: {
       shrink: {
