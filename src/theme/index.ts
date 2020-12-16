@@ -84,7 +84,6 @@ export const theme = createMuiTheme({
         },
         '@media (max-width: 1199px)': {
           fontSize: 16,
-          fontWeight: 600,
         },
         '@media (max-width: 639px)': {
           fontSize: 12,
