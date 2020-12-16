@@ -1,1 +1,1 @@
-export { StyledPhoneInput as PhoneInput, PhoneInputProps } from './PhoneInput'
+export { StyledPhoneInput as PhoneInput, PhoneInputProps } from './phone-input'

@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import PhoneInput from 'react-phone-input-2';
 import ru from 'react-phone-input-2/lang/ru.json';
 import { InputLabel, FormControl } from '@material-ui/core';
-import useStyles from './PhoneInputStyles';
+import useStyles from './phone-input-styles';
 import 'react-phone-input-2/lib/style.css';
 
 const preferredCountries = ['ru', 'ua', 'kz', 'by'];

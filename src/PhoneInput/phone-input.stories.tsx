@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { action } from '@storybook/addon-actions';
-import { StyledPhoneInput as PhoneInput } from './PhoneInput';
+import { StyledPhoneInput as PhoneInput } from './phone-input';
 
 export default {
   component: PhoneInput,
